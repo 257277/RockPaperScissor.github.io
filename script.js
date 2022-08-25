@@ -51,7 +51,7 @@ function result() {
         alert("..........  COMPUTER WIN  ..........");
     }
     else {
-        document.getElementById("resultdisplay").innerHTML = "..........  DRAW  ..........";
+        //  document.getElementById("resultdisplay").innerHTML = "..........  DRAW  ..........";
         alert("..........  DRAW  ..........");
     }
 }
