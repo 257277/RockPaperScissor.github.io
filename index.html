@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Rock Paper Scissor</title>
+</head>
+
+<body>
+    <!--  Introduction    -->
+    <h1>ROCK PAPER SCISSOR GAME</h1>
+    <h3 id="resultdisplay">Let's have some fun....</h3>
+    <table>
+        <tr>
+            <td>Player</td>
+            <td>Computer</td>
+        </tr>
+        <tr>
+            <td id="playerbox"> </td>
+            <td id="computerbox"> </td>
+        </tr>
+    </table>
+
+
+    <div>
+        <h3>SCORE</h3>
+        <table class="scoreboard">
+            <tr>
+                <td>Player</td>
+                <td>Computer</td>
+            </tr>
+            <tr>
+                <td id="player_score">0</td>
+                <td id="computer_score">0</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Animation display section    -->
+
+    <div>
+        <h3>Player choose:</h3>
+        <table>
+            <tr>
+                <td id="rock_image"> <img src="./image/Rock.jpg" alt="Rock image" onclick="rock_click()"> </td>
+                <td id="paper_image"> <img src="./image/Paper.jpg" alt="Paper image" onclick="paper_click()"></td>
+                <td id="scissor_image"> <img src="./image/Scissor.jpg" alt="Scissor image" onclick="scissor_click()">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
